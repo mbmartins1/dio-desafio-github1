@@ -1,0 +1,6 @@
+Comandos
+
+git status : status dos arquivos nos diretorios 
+git add .  : adicionar/salvar novos arquivos e diretorios localmente
+git commit -m "mensagem" : salvar/preparar os arquivos para serem enviados p/ nuvem
+git push origin main : envia os commits pra nuvem
