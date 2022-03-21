@@ -1,0 +1,11 @@
+Introdução ao Terminal Linux
+
+CRTL + ALT + T = Abre terminal
+root = usuário ADM
+ls = lista os arquivos e diretorios
+mkdir = cria pasta 
+cd .. = retorna ao diretorio anterior
+history = exibe programas e comandos utilizado no terminal
+man ls = demonstra a saída manual
+mv = mover ou renomear o arquivo 
+touch =  cria arquivos vazios no Linux
