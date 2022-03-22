@@ -1,5 +1,6 @@
 Comandos
 
+git clone "link" : Clona o repositorio e arquivos através do link
 git status : status dos arquivos nos diretorios 
 git add .  : adicionar/salvar novos arquivos e diretorios localmente
 git commit -m "mensagem" : salvar/preparar os arquivos para serem enviados p/ nuvem
