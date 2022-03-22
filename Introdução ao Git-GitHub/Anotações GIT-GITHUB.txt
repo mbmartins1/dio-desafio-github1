@@ -1,0 +1,106 @@
+CURSO GIT HUB
+
+WINDOWS
+LISTAR PASTAS = dir
+NAVEGAR ENTRE AS PASTAS = cd /
+LIMPAR TERMINAL = cls
+AUTO COMPLETA CAMINHOS OU NOMES DE PASTAS, ARQUIVOS = TECLA TAB
+CRIAR PASTA = mkdir (nome)
+CRIAR ARQUIVO = echo hello - hello.txt
+DELETAR ARQUIVO = del (ARQUIVO)
+DELETAR PASTA = rmdir (nome da pasta) /S /Q
+MOSTRA ARQUIVOS OCULTOS = ls -a
+
+
+
+LINUX
+LISTAR PASTAS = ls
+NAVEGAR ENTRE AS PASTAS = cd /
+LIMPAR TERMINAL = clear ou ctrl + L
+CRIAR PASTA = mkdir (nome da pasta)
+CRIAR ARQUIVO = echo hello - hello.txt
+DELETAR ARQUIVO = del (ARQUIVO)
+DELETAR PASTA = rm -rf (nome da pasta)
+
+
+OBJETOS FUNDAMENTAIS
+SHA1
+é um conjunto de funções hash criptográficas projetadas pela NSA, gera um conjunto de
+caracteres identificador de 40 digitos 
+
+BLOBS = CONTÉM METADADOS DO GUIT, TIPO DO OBJETIO, TAMANHO, CONTEÚDO E ETCS
+
+TREES = ARMAZENAM  E APONTAM BLOBS, GUARDA O NOME DO ARQUIVO E É RESPONSAVEL POR MONTAR TODA
+ESTRUTURA, PODE APONTAR PARA OUTRA ÁRVORE E BLOBS, POSSUI METADADOS E SHA1 DE ARVORE 
+
+COMMITS = o sha1 desse commit é o hash de toda essa informação. Garante a segunça total do
+código, pois é impossivel alterar alguma coisa sem que se altere toda a estrutura.
+
+SEGURANÇA e SISTEMA DISTRIBUIDO
+Pelo fato dos commits serem impossíveis de serem alterados, cada código é único.
+
+TRACKED = são arquivos que de tem ciência dele
+UNMONDIFIELD = arquivo que ainda não foi modificado
+MODIFIED = Aarquivo UNMONDIFIELD que sofrei alteração
+STAGED = é onde fica os arquivos qu estão se preparando para fazer parte de um outro
+tipo de agrupamento
+
+UNTRACKED = são arquivos que não se tem ciência dele.
+
+
+UNTRACKED --->  STAGED
+UNMONDIFIELD --->  MODIFIED
+MODIFIED --->  STAGED
+UNMONDIFIELD (REMOVE)--->  STAGED
+STAGED ----> COMMIT
+COMMIT (RETORNA)----> UNMONDIFIELD
+
+
+SERVIDOR = REMOTE REPOSITORY
+
+AMBIENTE DE DESENVOLVIMENTO
+WORKING DIRECTORY = 
+STAGING AREA = 
+LOCAL REPOSITORY = 
+
+GIT STATUS = ESTAGIOS QUE O ARQUIVO SE ENCONTRA
+
+git remote add origin = aponta o repositório remoto
+git remote -v = lista o repositório remoto
+git push = empurra o repositorio local para o remoto
+git pull = puxar o conteúdo para a máquina e juntar as duas versões existentes no git
+git clone = clona o repositorio 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
